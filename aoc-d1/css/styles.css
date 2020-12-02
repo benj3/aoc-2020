@@ -1,0 +1,37 @@
+body {
+    background: black;
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    height: 80vh;
+}
+
+h1, p, small {
+    margin: 0 0 5px;
+}
+
+small {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px dashed white;
+    width: 250px;
+    display: block;
+    margin: 30px 0;
+}
